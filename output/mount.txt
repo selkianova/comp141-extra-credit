@@ -1,0 +1,5 @@
+/dev/sdb on / type ext4 (rw,relatime,discard,errors=remount-ro,data=ordered)
+none on /mnt/wsl type tmpfs (rw,relatime)
+tools on /init type 9p (ro,relatime,dirsync,aname=tools;fmask=022,loose,access=client,msize=65536,trans=fd,rfd=7,wfd=7)
+none on /dev type devtmpfs (rw,nosuid,relatime,size=3989940k,nr_inodes=997485,mode=755)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,noatime)
